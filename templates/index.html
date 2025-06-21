@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Spellchecker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Neural Spellchecker</h1>
+            <p>Context-aware domain-specific spell correction</p>
+        </header>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="domain-select">Domain:</label>
+                <select id="domain-select">
+                    <option value="general">General</option>
+                    <option value="medical">Medical</option>
+                    <option value="legal">Legal</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="model-select">Model:</label>
+                <select id="model-select">
+                    <option value="bert">BERT</option>
+                    <option value="lstm">LSTM</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="file-upload">Upload File:</label>
+                <input type="file" id="file-upload" accept=".txt,.docx">
+                <button id="upload-btn">Upload</button>
+            </div>
+        </div>
+
+        <div class="input-section">
+            <div class="text-input-container">
+                <label for="text-input">Enter Text:</label>
+                <textarea id="text-input" placeholder="Type or paste your text here..." rows="8"></textarea>
+            </div>
+            
+            <div class="action-buttons">
+                <button id="check-btn">Check Spelling</button>
+                <button id="clear-btn">Clear</button>
+            </div>
+        </div>
+
+        <div class="progress-container" id="progress-container" style="display: none;">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <span class="progress-text" id="progress-text">Processing...</span>
+        </div>
+
+        <div class="results-section" id="results-section" style="display: none;">
+            <h2>Spell Check Results</h2>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">Total Errors:</span>
+                    <span class="stat-value" id="total-errors">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">General Errors:</span>
+                    <span class="stat-value" id="general-errors">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Domain Errors:</span>
+                    <span class="stat-value" id="domain-errors">0</span>
+                </div>
+            </div>
+
+            <div class="error-types">
+                <div class="error-section">
+                    <h3>General Corrections</h3>
+                    <div id="general-corrections" class="corrections-list"></div>
+                </div>
+                
+                <div class="error-section">
+                    <h3>Domain-Specific Corrections</h3>
+                    <div id="domain-corrections" class="corrections-list"></div>
+                </div>
+            </div>
+
+            <div class="corrected-text-section">
+                <h3>Highlighted Text</h3>
+                <div id="highlighted-text" class="highlighted-text"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
