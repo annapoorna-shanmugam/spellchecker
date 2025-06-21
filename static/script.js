@@ -17,9 +17,9 @@ class SpellChecker {
         this.progressFill = document.getElementById('progress-fill');
         this.progressText = document.getElementById('progress-text');
         this.resultsSection = document.getElementById('results-section');
-        this.totalErrors = document.getElementById('total-errors');
-        this.generalErrors = document.getElementById('general-errors');
-        this.domainErrors = document.getElementById('domain-errors');
+        // this.totalErrors = document.getElementById('total-errors');
+        // this.generalErrors = document.getElementById('general-errors');
+        // this.domainErrors = document.getElementById('domain-errors');
         this.generalCorrections = document.getElementById('general-corrections');
         this.domainCorrections = document.getElementById('domain-corrections');
         this.highlightedText = document.getElementById('highlighted-text');
@@ -157,9 +157,9 @@ class SpellChecker {
         const generalErrs = result.errors.filter(e => e.type === 'general');
         const domainErrs = result.errors.filter(e => e.type === 'domain');
 
-        this.totalErrors.textContent = result.errors.length;
-        this.generalErrors.textContent = generalErrs.length;
-        this.domainErrors.textContent = domainErrs.length;
+        // this.totalErrors.textContent = result.errors.length;
+        // this.generalErrors.textContent = generalErrs.length;
+        // this.domainErrors.textContent = domainErrs.length;
 
         this.displayCorrections(generalErrs, this.generalCorrections);
         this.displayCorrections(domainErrs, this.domainCorrections);

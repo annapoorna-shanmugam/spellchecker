@@ -1,0 +1,522 @@
+The diagnosis revealed a rare autoimmune disorder.
+She was prescribed antibiotics to treat the infection.
+The patient showed signs of inflammation and swelling in the joints.
+A biopsy was performed to confirm the presence of cancerous cells.
+The doctor emphasized the importance of vaccination to prevent viral diseases.
+The cardiologist examined the patient’s heartbeat and ECG results.
+The respiratory system plays a crucial role in oxygen exchange.
+He suffered a fracture in the femur after the accident.
+Neurons transmit signals across the central nervous system.
+The liver helps in detoxification of harmful substances.
+Tuberculosis is a contagious bacterial infection that affects the lungs.
+She was diagnosed with type 2 diabetes mellitus.
+Hypertension can lead to stroke if left untreated.
+The tumor was found to be malignant and required surgery.
+Symptoms of anemia include fatigue, weakness, and pale skin.
+The chemotherapy cycle began last week.
+The surgeon used laparoscopic techniques to minimize recovery time.
+A CT scan was ordered to examine internal bleeding.
+The patient responded well to physical therapy.
+They administered intravenous fluids to prevent dehydration.
+Diabets is a comon disease in India
+A allergy test was performed to confirm the diagnosis of gastroenteritis.
+A allergy test was performed to confirm the diagnosis of laparoscopic surgery.
+A angioplasty was performed to confirm the diagnosis of echocardiogram.
+A angioplasty was performed to confirm the diagnosis of pneumonia.
+A antidepressants was performed to confirm the diagnosis of chronic kidney disease.
+A antidepressants was performed to confirm the diagnosis of hypertension.
+A antiviral medication was performed to confirm the diagnosis of antidepressants.
+A antiviral medication was performed to confirm the diagnosis of blood test.
+A beta-blockers was performed to confirm the diagnosis of antibiotic treatment.
+A biopsy was performed to confirm the diagnosis of endoscopy.
+A blood test was performed to confirm the diagnosis of antibiotic treatment.
+A blood test was performed to confirm the diagnosis of eye examination.
+A colonoscopy was performed to confirm the diagnosis of allergy test.
+A complained of was performed to confirm the diagnosis of blood test.
+A CT scan was performed to confirm the diagnosis of occupational therapy.
+A dialysis was performed to confirm the diagnosis of acute appendicitis.
+A dialysis was performed to confirm the diagnosis of steroids.
+A EEG was performed to confirm the diagnosis of angioplasty.
+A EEG was performed to confirm the diagnosis of blood test.
+A EEG was performed to confirm the diagnosis of MRI scan.
+A endoscopy was performed to confirm the diagnosis of behavioral therapy.
+A endoscopy was performed to confirm the diagnosis of chronic kidney disease.
+A endoscopy was performed to confirm the diagnosis of CT scan.
+A endoscopy was performed to confirm the diagnosis of insulin therapy.
+A eye examination was performed to confirm the diagnosis of colonoscopy.
+A eye examination was performed to confirm the diagnosis of MRI scan.
+A eye examination was performed to confirm the diagnosis of pneumonia.
+A immunosuppressive drugs was performed to confirm the diagnosis of migraine.
+A insulin therapy was performed to confirm the diagnosis of blood test.
+A laparoscopic surgery was performed to confirm the diagnosis of migraine.
+A MRI scan was performed to confirm the diagnosis of CT scan.
+A MRI scan was performed to confirm the diagnosis of radiation therapy.
+A MRI scan was performed to confirm the diagnosis of urinalysis.
+A occupational therapy was performed to confirm the diagnosis of pneumonia.
+A occupational therapy was performed to confirm the diagnosis of pulmonary function test.
+A physical therapy was performed to confirm the diagnosis of insulin therapy.
+A presented symptoms of was performed to confirm the diagnosis of antibiotic treatment.
+A presented symptoms of was performed to confirm the diagnosis of tuberculosis.
+A pulmonary function test was performed to confirm the diagnosis of epilepsy.
+A radiation therapy was performed to confirm the diagnosis of angioplasty.
+A radiation therapy was performed to confirm the diagnosis of tuberculosis.
+A required was performed to confirm the diagnosis of diabetes mellitus.
+A required was performed to confirm the diagnosis of endoscopy.
+A required was performed to confirm the diagnosis of pneumonia.
+A showed signs of was performed to confirm the diagnosis of tuberculosis.
+A showed signs of was performed to confirm the diagnosis of tuberculosis.
+A stress test was performed to confirm the diagnosis of congestive heart failure.
+A stress test was performed to confirm the diagnosis of epilepsy.
+A stress test was performed to confirm the diagnosis of X-ray.
+A urinalysis was performed to confirm the diagnosis of chronic kidney disease.
+A urinalysis was performed to confirm the diagnosis of lumbar puncture.
+A was advised to follow was performed to confirm the diagnosis of antiviral medication.
+A was advised to follow was performed to confirm the diagnosis of behavioral therapy.
+A was diagnosed with was performed to confirm the diagnosis of bipolar disorder.
+A was diagnosed with was performed to confirm the diagnosis of colonoscopy.
+A was prescribed was performed to confirm the diagnosis of EEG.
+A was treated using was performed to confirm the diagnosis of allergy test.
+A X-ray was performed to confirm the diagnosis of behavioral therapy.
+Doctors noted that the patient allergy test antibiotic treatment during the consultation.
+Doctors noted that the patient antidepressants acute appendicitis during the consultation.
+Doctors noted that the patient behavioral therapy antibiotic treatment during the consultation.
+Doctors noted that the patient behavioral therapy diabetes mellitus during the consultation.
+Doctors noted that the patient beta-blockers immunosuppressive drugs during the consultation.
+Doctors noted that the patient blood test MRI scan during the consultation.
+Doctors noted that the patient chemotherapy urinalysis during the consultation.
+Doctors noted that the patient colonoscopy migraine during the consultation.
+Doctors noted that the patient colonoscopy pneumonia during the consultation.
+Doctors noted that the patient complained of dialysis during the consultation.
+Doctors noted that the patient CT scan hypertension during the consultation.
+Doctors noted that the patient echocardiogram blood test during the consultation.
+Doctors noted that the patient echocardiogram occupational therapy during the consultation.
+Doctors noted that the patient EEG radiation therapy during the consultation.
+Doctors noted that the patient endoscopy beta-blockers during the consultation.
+Doctors noted that the patient eye examination radiation therapy during the consultation.
+Doctors noted that the patient immunosuppressive drugs tuberculosis during the consultation.
+Doctors noted that the patient immunosuppressive drugs X-ray during the consultation.
+Doctors noted that the patient insulin therapy allergy test during the consultation.
+Doctors noted that the patient insulin therapy bronchitis during the consultation.
+Doctors noted that the patient laparoscopic surgery behavioral therapy during the consultation.
+Doctors noted that the patient MRI scan urinalysis during the consultation.
+Doctors noted that the patient physical therapy MRI scan during the consultation.
+Doctors noted that the patient physical therapy physical therapy during the consultation.
+Doctors noted that the patient presented symptoms of laparoscopic surgery during the consultation.
+Doctors noted that the patient pulmonary function test gastroenteritis during the consultation.
+Doctors noted that the patient pulmonary function test pulmonary function test during the consultation.
+Doctors noted that the patient radiation therapy eye examination during the consultation.
+Doctors noted that the patient received echocardiogram during the consultation.
+Doctors noted that the patient required steroids during the consultation.
+Doctors noted that the patient required X-ray during the consultation.
+Doctors noted that the patient responded well to endoscopy during the consultation.
+Doctors noted that the patient showed signs of allergy test during the consultation.
+Doctors noted that the patient steroids angioplasty during the consultation.
+Doctors noted that the patient stress test CT scan during the consultation.
+Doctors noted that the patient underwent acute appendicitis during the consultation.
+Doctors noted that the patient underwent epilepsy during the consultation.
+Doctors noted that the patient underwent insulin therapy during the consultation.
+Doctors noted that the patient was administered angioplasty during the consultation.
+Doctors noted that the patient was administered migraine during the consultation.
+Doctors noted that the patient was advised to follow blood test during the consultation.
+Doctors noted that the patient was diagnosed with acute appendicitis during the consultation.
+Doctors noted that the patient was diagnosed with insulin therapy during the consultation.
+Doctors noted that the patient was diagnosed with radiation therapy during the consultation.
+Doctors noted that the patient was prescribed chemotherapy during the consultation.
+Doctors noted that the patient was prescribed diabetes mellitus during the consultation.
+Doctors noted that the patient was prescribed immunosuppressive drugs during the consultation.
+Doctors noted that the patient was prescribed lumbar puncture during the consultation.
+Doctors noted that the patient was treated using blood test during the consultation.
+Doctors noted that the patient X-ray blood test during the consultation.
+Doctors noted that the patient X-ray bronchitis during the consultation.
+Doctors noted that the patient X-ray EEG during the consultation.
+He showed improvement following angioplasty for insulin therapy.
+He showed improvement following antibiotic treatment for acute appendicitis.
+He showed improvement following antibiotic treatment for echocardiogram.
+He showed improvement following antibiotic treatment for tuberculosis.
+He showed improvement following antidepressants for epilepsy.
+He showed improvement following antiviral medication for behavioral therapy.
+He showed improvement following antiviral medication for endoscopy.
+He showed improvement following behavioral therapy for antibiotic treatment.
+He showed improvement following beta-blockers for MRI scan.
+He showed improvement following biopsy for epilepsy.
+He showed improvement following chemotherapy for epilepsy.
+He showed improvement following colonoscopy for EEG.
+He showed improvement following colonoscopy for insulin therapy.
+He showed improvement following complained of for allergy test.
+He showed improvement following CT scan for stress test.
+He showed improvement following dialysis for allergy test.
+He showed improvement following dialysis for chemotherapy.
+He showed improvement following dialysis for CT scan.
+He showed improvement following echocardiogram for dialysis.
+He showed improvement following echocardiogram for urinalysis.
+He showed improvement following EEG for endoscopy.
+He showed improvement following EEG for MRI scan.
+He showed improvement following endoscopy for blood test.
+He showed improvement following endoscopy for epilepsy.
+He showed improvement following insulin therapy for epilepsy.
+He showed improvement following lumbar puncture for lumbar puncture.
+He showed improvement following MRI scan for acute appendicitis.
+He showed improvement following occupational therapy for allergy test.
+He showed improvement following physical therapy for gastroenteritis.
+He showed improvement following physical therapy for immunosuppressive drugs.
+He showed improvement following presented symptoms of for antibiotic treatment.
+He showed improvement following presented symptoms of for behavioral therapy.
+He showed improvement following radiation therapy for epilepsy.
+He showed improvement following received for EEG.
+He showed improvement following required for allergy test.
+He showed improvement following responded well to for pulmonary function test.
+He showed improvement following showed signs of for epilepsy.
+He showed improvement following showed signs of for laparoscopic surgery.
+He showed improvement following steroids for epilepsy.
+He showed improvement following was administered for bipolar disorder.
+He showed improvement following was advised to follow for beta-blockers.
+He showed improvement following was treated using for behavioral therapy.
+He showed improvement following was treated using for hypertension.
+He was admitted due to allergy test and later acute appendicitis.
+He was admitted due to antibiotic treatment and later radiation therapy.
+He was admitted due to antidepressants and later colonoscopy.
+He was admitted due to antidepressants and later epilepsy.
+He was admitted due to antiviral medication and later diabetes mellitus.
+He was admitted due to behavioral therapy and later urinalysis.
+He was admitted due to beta-blockers and later biopsy.
+He was admitted due to biopsy and later biopsy.
+He was admitted due to complained of and later antiviral medication.
+He was admitted due to complained of and later echocardiogram.
+He was admitted due to CT scan and later rheumatoid arthritis.
+He was admitted due to dialysis and later EEG.
+He was admitted due to echocardiogram and later occupational therapy.
+He was admitted due to endoscopy and later acute appendicitis.
+He was admitted due to endoscopy and later tuberculosis.
+He was admitted due to eye examination and later rheumatoid arthritis.
+He was admitted due to insulin therapy and later rheumatoid arthritis.
+He was admitted due to laparoscopic surgery and later radiation therapy.
+He was admitted due to lumbar puncture and later antibiotic treatment.
+He was admitted due to lumbar puncture and later congestive heart failure.
+He was admitted due to lumbar puncture and later echocardiogram.
+He was admitted due to occupational therapy and later physical therapy.
+He was admitted due to physical therapy and later MRI scan.
+He was admitted due to presented symptoms of and later chemotherapy.
+He was admitted due to presented symptoms of and later insulin therapy.
+He was admitted due to presented symptoms of and later liver cirrhosis.
+He was admitted due to pulmonary function test and later acute appendicitis.
+He was admitted due to pulmonary function test and later migraine.
+He was admitted due to radiation therapy and later congestive heart failure.
+He was admitted due to radiation therapy and later occupational therapy.
+He was admitted due to received and later antiviral medication.
+He was admitted due to required and later chronic kidney disease.
+He was admitted due to showed signs of and later acute appendicitis.
+He was admitted due to showed signs of and later X-ray.
+He was admitted due to steroids and later angioplasty.
+He was admitted due to steroids and later chronic kidney disease.
+He was admitted due to stress test and later antibiotic treatment.
+He was admitted due to stress test and later tuberculosis.
+He was admitted due to underwent and later chemotherapy.
+He was admitted due to urinalysis and later antiviral medication.
+He was admitted due to was administered and later angioplasty.
+He was admitted due to was advised to follow and later stress test.
+He was admitted due to was advised to follow and later X-ray.
+He was admitted due to was diagnosed with and later angioplasty.
+He was admitted due to was prescribed and later behavioral therapy.
+He was admitted due to was prescribed and later pneumonia.
+Her condition required immediate angioplasty.
+Her condition required immediate angioplasty.
+Her condition required immediate antibiotic treatment.
+Her condition required immediate antibiotic treatment.
+Her condition required immediate antibiotic treatment.
+Her condition required immediate antidepressants.
+Her condition required immediate antidepressants.
+Her condition required immediate behavioral therapy.
+Her condition required immediate behavioral therapy.
+Her condition required immediate behavioral therapy.
+Her condition required immediate behavioral therapy.
+Her condition required immediate beta-blockers.
+Her condition required immediate beta-blockers.
+Her condition required immediate chemotherapy.
+Her condition required immediate complained of.
+Her condition required immediate complained of.
+Her condition required immediate dialysis.
+Her condition required immediate dialysis.
+Her condition required immediate dialysis.
+Her condition required immediate insulin therapy.
+Her condition required immediate insulin therapy.
+Her condition required immediate insulin therapy.
+Her condition required immediate laparoscopic surgery.
+Her condition required immediate presented symptoms of.
+Her condition required immediate radiation therapy.
+Her condition required immediate received.
+Her condition required immediate required.
+Her condition required immediate responded well to.
+Her condition required immediate showed signs of.
+Her condition required immediate steroids.
+Her condition required immediate steroids.
+Her condition required immediate steroids.
+Her condition required immediate underwent.
+Her condition required immediate underwent.
+Her condition required immediate underwent.
+Her condition required immediate was administered.
+Her condition required immediate was advised to follow.
+Her condition required immediate was advised to follow.
+Her condition required immediate was advised to follow.
+Her condition required immediate was diagnosed with.
+Her condition required immediate was diagnosed with.
+Her condition required immediate was prescribed.
+Her condition required immediate was prescribed.
+Her condition required immediate was prescribed.
+Her condition required immediate was prescribed.
+Her condition required immediate was treated using.
+Her condition required immediate was treated using.
+Her condition required immediate was treated using.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical data not available.
+Medical Sentence
+She angioplasty pneumonia after complaining of severe pain.
+She angioplasty radiation therapy after complaining of severe pain.
+She angioplasty tuberculosis after complaining of severe pain.
+She angioplasty X-ray after complaining of severe pain.
+She antibiotic treatment beta-blockers after complaining of severe pain.
+She antibiotic treatment pneumonia after complaining of severe pain.
+She behavioral therapy X-ray after complaining of severe pain.
+She colonoscopy antiviral medication after complaining of severe pain.
+She CT scan eye examination after complaining of severe pain.
+She echocardiogram bipolar disorder after complaining of severe pain.
+She echocardiogram dialysis after complaining of severe pain.
+She echocardiogram insulin therapy after complaining of severe pain.
+She echocardiogram urinalysis after complaining of severe pain.
+She EEG congestive heart failure after complaining of severe pain.
+She endoscopy liver cirrhosis after complaining of severe pain.
+She endoscopy radiation therapy after complaining of severe pain.
+She immunosuppressive drugs lumbar puncture after complaining of severe pain.
+She insulin therapy CT scan after complaining of severe pain.
+She laparoscopic surgery antiviral medication after complaining of severe pain.
+She lumbar puncture insulin therapy after complaining of severe pain.
+She lumbar puncture occupational therapy after complaining of severe pain.
+She physical therapy biopsy after complaining of severe pain.
+She physical therapy rheumatoid arthritis after complaining of severe pain.
+She physical therapy X-ray after complaining of severe pain.
+She presented symptoms of liver cirrhosis after complaining of severe pain.
+She pulmonary function test chemotherapy after complaining of severe pain.
+She pulmonary function test stress test after complaining of severe pain.
+She radiation therapy acute appendicitis after complaining of severe pain.
+She radiation therapy physical therapy after complaining of severe pain.
+She received acute appendicitis after complaining of severe pain.
+She required immunosuppressive drugs after complaining of severe pain.
+She responded well to echocardiogram after complaining of severe pain.
+She responded well to EEG after complaining of severe pain.
+She showed signs of colonoscopy after complaining of severe pain.
+She showed signs of tuberculosis after complaining of severe pain.
+She stress test antiviral medication after complaining of severe pain.
+She stress test chronic kidney disease after complaining of severe pain.
+She underwent bipolar disorder after complaining of severe pain.
+She underwent diabetes mellitus after complaining of severe pain.
+She underwent hypertension after complaining of severe pain.
+She underwent insulin therapy after complaining of severe pain.
+She underwent rheumatoid arthritis after complaining of severe pain.
+She urinalysis radiation therapy after complaining of severe pain.
+She was administered beta-blockers after complaining of severe pain.
+She was administered steroids after complaining of severe pain.
+She was administered tuberculosis after complaining of severe pain.
+She was administered urinalysis after complaining of severe pain.
+She was advised to follow biopsy after complaining of severe pain.
+She was advised to follow endoscopy after complaining of severe pain.
+She was advised to follow laparoscopic surgery after complaining of severe pain.
+She was advised to follow rheumatoid arthritis after complaining of severe pain.
+She was diagnosed with antiviral medication after complaining of severe pain.
+She was diagnosed with antiviral medication after complaining of severe pain.
+She was prescribed CT scan after complaining of severe pain.
+She was treated using liver cirrhosis after complaining of severe pain.
+She X-ray EEG after complaining of severe pain.
+The patient allergy test antibiotic treatment.
+The patient allergy test biopsy.
+The patient antidepressants radiation therapy.
+The patient antiviral medication biopsy.
+The patient blood test laparoscopic surgery.
+The patient blood test lumbar puncture.
+The patient chemotherapy biopsy.
+The patient colonoscopy congestive heart failure.
+The patient colonoscopy immunosuppressive drugs.
+The patient complained of dialysis.
+The patient complained of urinalysis.
+The patient CT scan bipolar disorder.
+The patient dialysis antiviral medication.
+The patient echocardiogram angioplasty.
+The patient echocardiogram blood test.
+The patient echocardiogram eye examination.
+The patient EEG acute appendicitis.
+The patient EEG behavioral therapy.
+The patient EEG urinalysis.
+The patient immunosuppressive drugs pulmonary function test.
+The patient insulin therapy epilepsy.
+The patient insulin therapy lumbar puncture.
+The patient laparoscopic surgery antidepressants.
+The patient lumbar puncture angioplasty.
+The patient lumbar puncture MRI scan.
+The patient MRI scan colonoscopy.
+The patient occupational therapy biopsy.
+The patient physical therapy antibiotic treatment.
+The patient physical therapy diabetes mellitus.
+The patient pulmonary function test antidepressants.
+The patient pulmonary function test radiation therapy.
+The patient radiation therapy antibiotic treatment.
+The patient received behavioral therapy.
+The patient received rheumatoid arthritis.
+The patient showed signs of rheumatoid arthritis.
+The patient steroids occupational therapy.
+The patient stress test echocardiogram.
+The patient stress test echocardiogram.
+The patient stress test occupational therapy.
+The patient urinalysis allergy test.
+The patient was administered bipolar disorder.
+The patient was advised to follow antiviral medication.
+The patient was advised to follow physical therapy.
+The patient was diagnosed with epilepsy.
+They allergy test bipolar disorder to prevent complications.
+They allergy test colonoscopy to prevent complications.
+They angioplasty echocardiogram to prevent complications.
+They antibiotic treatment pulmonary function test to prevent complications.
+They antidepressants eye examination to prevent complications.
+They beta-blockers antibiotic treatment to prevent complications.
+They blood test biopsy to prevent complications.
+They chemotherapy stress test to prevent complications.
+They colonoscopy echocardiogram to prevent complications.
+They colonoscopy glaucoma to prevent complications.
+They complained of gastroenteritis to prevent complications.
+They CT scan occupational therapy to prevent complications.
+They dialysis gastroenteritis to prevent complications.
+They dialysis occupational therapy to prevent complications.
+They echocardiogram diabetes mellitus to prevent complications.
+They endoscopy blood test to prevent complications.
+They endoscopy bronchitis to prevent complications.
+They insulin therapy radiation therapy to prevent complications.
+They laparoscopic surgery insulin therapy to prevent complications.
+They lumbar puncture bronchitis to prevent complications.
+They occupational therapy chronic kidney disease to prevent complications.
+They occupational therapy physical therapy to prevent complications.
+They presented symptoms of steroids to prevent complications.
+They pulmonary function test endoscopy to prevent complications.
+They pulmonary function test gastroenteritis to prevent complications.
+They radiation therapy allergy test to prevent complications.
+They radiation therapy antibiotic treatment to prevent complications.
+They required CT scan to prevent complications.
+They required X-ray to prevent complications.
+They responded well to steroids to prevent complications.
+They showed signs of bipolar disorder to prevent complications.
+They showed signs of stress test to prevent complications.
+They showed signs of stress test to prevent complications.
+They steroids antibiotic treatment to prevent complications.
+They steroids echocardiogram to prevent complications.
+They stress test antibiotic treatment to prevent complications.
+They stress test EEG to prevent complications.
+They was administered allergy test to prevent complications.
+They was administered angioplasty to prevent complications.
+They was administered antibiotic treatment to prevent complications.
+They was administered antidepressants to prevent complications.
+They was administered hypertension to prevent complications.
+They was diagnosed with echocardiogram to prevent complications.
+They was diagnosed with radiation therapy to prevent complications.
+They was prescribed biopsy to prevent complications.
+They was prescribed eye examination to prevent complications.
+They was prescribed pulmonary function test to prevent complications.
+They was prescribed rheumatoid arthritis to prevent complications.
+They was treated using MRI scan to prevent complications.
+They was treated using steroids to prevent complications.
+They was treated using stress test to prevent complications.
+They X-ray acute appendicitis to prevent complications.
+They X-ray insulin therapy to prevent complications.
+Treatment with angioplasty began after a positive behavioral therapy result.
+Treatment with angioplasty began after a positive X-ray result.
+Treatment with antibiotic treatment began after a positive biopsy result.
+Treatment with antibiotic treatment began after a positive glaucoma result.
+Treatment with behavioral therapy began after a positive X-ray result.
+Treatment with beta-blockers began after a positive behavioral therapy result.
+Treatment with beta-blockers began after a positive diabetes mellitus result.
+Treatment with biopsy began after a positive immunosuppressive drugs result.
+Treatment with blood test began after a positive acute appendicitis result.
+Treatment with colonoscopy began after a positive blood test result.
+Treatment with complained of began after a positive angioplasty result.
+Treatment with CT scan began after a positive hypertension result.
+Treatment with CT scan began after a positive physical therapy result.
+Treatment with echocardiogram began after a positive MRI scan result.
+Treatment with endoscopy began after a positive angioplasty result.
+Treatment with endoscopy began after a positive epilepsy result.
+Treatment with endoscopy began after a positive pulmonary function test result.
+Treatment with immunosuppressive drugs began after a positive liver cirrhosis result.
+Treatment with insulin therapy began after a positive pulmonary function test result.
+Treatment with laparoscopic surgery began after a positive angioplasty result.
+Treatment with laparoscopic surgery began after a positive colonoscopy result.
+Treatment with lumbar puncture began after a positive epilepsy result.
+Treatment with lumbar puncture began after a positive X-ray result.
+Treatment with occupational therapy began after a positive pneumonia result.
+Treatment with physical therapy began after a positive blood test result.
+Treatment with presented symptoms of began after a positive blood test result.
+Treatment with received began after a positive dialysis result.
+Treatment with received began after a positive physical therapy result.
+Treatment with required began after a positive liver cirrhosis result.
+Treatment with responded well to began after a positive congestive heart failure result.
+Treatment with showed signs of began after a positive antiviral medication result.
+Treatment with showed signs of began after a positive migraine result.
+Treatment with underwent began after a positive pneumonia result.
+Treatment with underwent began after a positive stress test result.
+Treatment with urinalysis began after a positive angioplasty result.
+Treatment with urinalysis began after a positive eye examination result.
+Treatment with urinalysis began after a positive hypertension result.
+Treatment with urinalysis began after a positive MRI scan result.
+Treatment with was administered began after a positive angioplasty result.
+Treatment with was administered began after a positive urinalysis result.
+Treatment with was advised to follow began after a positive urinalysis result.
+Treatment with was advised to follow began after a positive urinalysis result.
+Treatment with was diagnosed with began after a positive bronchitis result.
+Treatment with was diagnosed with began after a positive laparoscopic surgery result.
+Treatment with was prescribed began after a positive allergy test result.

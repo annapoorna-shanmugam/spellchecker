@@ -18,28 +18,16 @@ A context-aware, domain-specific spellchecker using neural networks (BERT/Distil
 pip install -r requirements.txt
 ```
 
-2. Install system dependencies for pyenchant:
-```bash
-# On macOS
-brew install enchant
-
-# On Ubuntu/Debian
-sudo apt-get install libenchant-2-2
-
-# On Windows
-# Download and install from: https://github.com/AbiWord/enchant/releases
-```
-
 ## Usage
 
 1. Start the Flask server:
-```bash
+```
 python app.py
 ```
 
 2. Open your browser and go to `http://localhost:5000`
 
-3. Select your domain (General, Medical, Legal) and model (BERT, DistilBERT)
+3. Select your domain (General, Medical, Legal) and model (BERT, LSTM)
 
 4. Enter text or upload a file for spell checking
 
