@@ -8,6 +8,7 @@ from werkzeug.utils import secure_filename
 from transformers import AutoModelForMaskedLM, AutoTokenizer
 import torch
 from spellchecker import SpellChecker
+import torch.nn.functional as F
 
 
 app = Flask(__name__)
@@ -28,6 +29,7 @@ class BasicSpellChecker:
         self.load_domain_configs()
         self.spell = SpellChecker()
         self.domain_models = {}
+        self.load_domain_models()
     
     def load_domain_configs(self):
         with open('domain_config.yaml', 'r') as f:
@@ -53,81 +55,66 @@ class BasicSpellChecker:
                 return True
         return False
     
-    def get_suggestions(self, word, domain):
-        suggestions = []
-        word_lower = word.lower()
-        
-        # First check domain-specific terms
-        domain_terms = self.domain_configs.get(domain, {}).get('terms', [])
-        # for term in domain_terms:
-        #     if self.levenshtein_distance(word_lower, term.lower()) <= 2:
-        #         distance = self.levenshtein_distance(word_lower, term.lower())
-        #         score = max(0.1, 1.0 - (distance / max(len(word), len(term))))
-        #         suggestions.append((term, score))
-        
-        # Use neural model for suggestions
-        context = self.domain_configs.get(domain, {}).get('context', '')
-        masked_text = f"{context} {self.tokenizer.mask_token} {context}"
-        
+    def get_suggestions(self, masked_text, error_words_suggestion, error_words, domain):
         # Get domain-specific model if available
         if domain in self.domain_models:
-            model_name, model = self.domain_models[domain]
-            if model is None:  # Lazy loading
-                self.domain_models[domain] = (
-                    model_name,
-                    AutoModelForMaskedLM.from_pretrained(model_name)
-                )
-                model = self.domain_models[domain][1]
-        else:
-            model = self.model  # Use default BERT model
+            self.tokenizer = AutoTokenizer.from_pretrained(self.domain_models[domain][0])
+            self.model = AutoModelForMaskedLM.from_pretrained(self.domain_models[domain][0])
             
         # Get predictions from model
         inputs = self.tokenizer(masked_text, return_tensors="pt")
-        with torch.no_grad():
-            outputs = model(**inputs)
-            predictions = outputs.logits[0, inputs['input_ids'][0] == self.tokenizer.mask_token_id]
-            
-        # print("predictions shape:", predictions.shape)
-        # print("predictions:", predictions)
-        predictions = predictions.squeeze(0)
-        # Get top 5 predictions
-        top_k = 5
-        probs, indices = torch.topk(torch.softmax(predictions, dim=0), top_k)
-        
-        
-        # Generate suggestions
-        for prob, index in zip(probs, indices):
-            token_id = index.item()
-            try:
-                suggestion = self.tokenizer.decode([token_id]).strip()
-                if suggestion and self.levenshtein_distance(word_lower, suggestion.lower()) <= 3:
-                    suggestions.append((suggestion, float(prob)))
-            except Exception:
-                continue
+        input_ids = inputs["input_ids"]
 
-        # Sort all suggestions by score
-        suggestions.sort(key=lambda x: x[1], reverse=True)
-        return suggestions[:5] if suggestions else [(word, 0.1)]
+        # Find all [MASK] position
+        mask_token_indices = (input_ids == self.tokenizer.mask_token_id).nonzero(as_tuple=True)[1]
+
+        with torch.no_grad():
+            logits = self.model(**inputs).logits
+
+        top_k = 3
+        for idx, mask_pos in enumerate(mask_token_indices):
+            mask_logits = logits[0, mask_pos, :]
+            probs = F.softmax(mask_logits, dim=-1)
+            top_probs, top_indices = torch.topk(probs, top_k)
+            word_suggestions = []
+            for token_id, prob in zip(top_indices, top_probs):
+                predicted_word = self.tokenizer.decode([token_id]).strip()
+                word_suggestions.append((predicted_word, float(prob)))
+
+            # Sort suggestions by Levenshtein distance to the original error word, then by probability
+            word_suggestions.sort(key=lambda x: (self.levenshtein_distance(error_words[idx].lower(), x[0].lower()), -x[1]))
+            print(f"Suggestions for '{error_words[idx]}': {word_suggestions}")
+            # Assign suggestions to the corresponding error word
+            error_words_suggestion[error_words[idx]] = word_suggestions[0]
 
 
     def check_spelling(self, text, domain="general", model_type="basic"):
         words = re.findall(r'\b\w+\b', text)
         errors = []
-        
+        masked_text = ""
+        error_words = []
+        error_words_suggestion = {}
         for i, word in enumerate(words):
-            if not self.is_word_correct(word):  # Skip very short words
-                suggestions = self.get_suggestions(word, domain)
-                
+            if self.is_word_correct(word): 
+                masked_text += word + " "
+            else:
+                error_words.append(word)
+                error_words_suggestion[word] = []
+                masked_text += self.tokenizer.mask_token + " "
+        self.get_suggestions(masked_text, error_words_suggestion, error_words, domain)
+
+        for i, word in enumerate(words):
+            if word in error_words: 
                 # Determine error type
                 domain_terms = self.domain_configs.get(domain, {}).get('terms', [])
-                error_type = "domain" if any(sugg in domain_terms for sugg, _ in suggestions[:3]) else "general"
+                error_type = "domain" if any(sugg in domain_terms for sugg in error_words_suggestion[word]) else "general"
                 
                 errors.append({
                     'word': word,
                     'position': i,
-                    'suggestions': suggestions,
+                    'suggestions': [list(error_words_suggestion[word])],
                     'type': error_type,
-                    'confidence': suggestions[0][1] if suggestions else 0.5
+                    'confidence': error_words_suggestion[word][1] if error_words_suggestion[word] else 0.5
                 })
         
         return errors

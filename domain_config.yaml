@@ -61,6 +61,7 @@ medical:
     - "epidemiology"
     - "etiology"
     - "pathophysiology"
+    - "tuberculosis"
   common_errors:
     - ["hypertention", "hypertension"]
     - ["diabetis", "diabetes"]
