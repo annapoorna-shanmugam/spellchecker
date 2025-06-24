@@ -1,0 +1,119 @@
+<!--
+Neural Spellchecker Web Interface
+
+This template provides a user interface for the Neural Spellchecker application.
+It supports both BERT and LSTM-based spell checking with domain-specific capabilities
+for general, medical, and legal text.
+
+Features:
+- Domain selection (general, medical, legal)
+- Model selection (BERT, LSTM)
+- File upload support (.txt, .docx)
+- Real-time spell checking
+- Progress indication
+- Categorized results display
+
+Template Dependencies:
+- style.css: Main stylesheet for the application
+- script.js: Client-side JavaScript functionality
+- Flask url_for: For dynamic asset loading
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Spellchecker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Neural Spellchecker</h1>
+            <p>Context-aware domain-specific spell correction</p>
+        </header>
+
+        <!-- Control panel for user options -->
+        <div class="controls">
+            <!-- Domain selection dropdown -->
+            <div class="control-group">
+                <label for="domain-select">Domain:</label>
+                <select id="domain-select">
+                    <option value="general">General</option>
+                    <option value="medical">Medical</option>
+                    <option value="legal">Legal</option>
+                </select>
+            </div>
+
+            <!-- Model selection dropdown -->
+            <div class="control-group">
+                <label for="model-select">Model:</label>
+                <select id="model-select">
+                    <option value="bert">BERT</option>
+                    <option value="lstm">LSTM</option>
+                </select>
+            </div>
+
+            <!-- File upload control group -->
+            <div class="control-group">
+                <label for="file-upload">Upload File:</label>
+                <input type="file" id="file-upload" accept=".txt,.docx">
+                <button id="upload-btn">Upload</button>
+            </div>
+        </div>
+
+        <!-- Text input section -->
+        <div class="input-section">
+            <div class="text-input-container">
+                <label for="text-input">Enter Text:</label>
+                <textarea id="text-input" placeholder="Type or paste your text here..." rows="8"></textarea>
+            </div>
+            
+            <!-- Action buttons for text processing -->
+            <div class="action-buttons">
+                <button id="check-btn">Check Spelling</button>
+                <button id="clear-btn">Clear</button>
+            </div>
+        </div>
+
+        <!-- Progress indicator (hidden by default) -->
+        <div class="progress-container" id="progress-container" style="display: none;">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <span class="progress-text" id="progress-text">Processing...</span>
+        </div>
+
+        <!-- Results section (hidden by default) -->
+        <div class="results-section" id="results-section" style="display: none;">
+            <h2>Spell Check Results</h2>
+            
+            <!-- Error display sections -->
+            <div class="error-types">
+                <!-- General spelling corrections -->
+                <div class="error-section">
+                    <h3>General Corrections</h3>
+                    <div id="general-corrections" class="corrections-list"></div>
+                </div>
+                
+                <!-- Domain-specific corrections -->
+                <div class="error-section">
+                    <h3>Domain-Specific Corrections</h3>
+                    <div id="domain-corrections" class="corrections-list"></div>
+                </div>
+            </div>
+
+            <!-- Text display with highlighted errors -->
+            <div class="corrected-text-section">
+                <h3>Highlighted Text</h3>
+                <div id="highlighted-text" class="highlighted-text"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load application scripts using Flask's url_for -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+flask
+flask-cors
+pyyaml
+python-docx
+pyenchant
+torch
+transformers
+numpy
+pyspellchecker
+tensorflow

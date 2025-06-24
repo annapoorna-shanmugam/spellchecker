@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Model files
+*.h5
+*.pkl
+
+# Uploads directory
+uploads/
+
+# IDE
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
